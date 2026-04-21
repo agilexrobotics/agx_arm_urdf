@@ -11,13 +11,13 @@ This repository contains URDF / Xacro model files and 3D mesh resources for Agil
 
 ## Supported Models
 
-| Model | Directory | Base URDF | Gripper Xacro | Dexterous Hand Xacro |
+| Model | Directory | Base URDF | Gripper Xacro/URDF | Dexterous Hand Xacro/URDF |
 |-------|-----------|-----------|---------------|----------------------|
-| Piper | `piper/` | `piper_description.urdf` | `piper_with_gripper_description.xacro` | `piper_with_left_revo2_description.xacro` / `piper_with_right_revo2_description.xacro` |
-| Piper H | `piper_h/` | `piper_h_description.urdf` | `piper_h_with_gripper_description.xacro` | `piper_h_with_left_revo2_description.xacro` / `piper_h_with_right_revo2_description.xacro` |
-| Piper L | `piper_l/` | `piper_l_description.urdf` | `piper_l_with_gripper_description.xacro` | `piper_l_with_left_revo2_description.xacro` / `piper_l_with_right_revo2_description.xacro` |
-| Piper X | `piper_x/` | `piper_x_description.urdf` | `piper_x_with_gripper_description.xacro` | `piper_x_with_left_revo2_description.xacro` / `piper_x_with_right_revo2_description.xacro` |
-| Nero | `nero/` | `nero_description.urdf` | `nero_with_gripper_description.xacro` | `nero_with_left_revo2_description.xacro` / `nero_with_right_revo2_description.xacro` |
+| Piper | `piper/` | `piper_description.urdf` | `piper_with_gripper_description.xacro/urdf` | `piper_with_left_revo2_description.xacro/urdf` / `piper_with_right_revo2_description.xacro/urdf` |
+| Piper H | `piper_h/` | `piper_h_description.urdf` | `piper_h_with_gripper_description.xacro/urdf` | `piper_h_with_left_revo2_description.xacro/urdf` / `piper_h_with_right_revo2_description.xacro/urdf` |
+| Piper L | `piper_l/` | `piper_l_description.urdf` | `piper_l_with_gripper_description.xacro/urdf` | `piper_l_with_left_revo2_description.xacro/urdf` / `piper_l_with_right_revo2_description.xacro/urdf` |
+| Piper X | `piper_x/` | `piper_x_description.urdf` | `piper_x_with_gripper_description.xacro/urdf` | `piper_x_with_left_revo2_description.xacro/urdf` / `piper_x_with_right_revo2_description.xacro/urdf` |
+| Nero | `nero/` | `nero_description.urdf` | `nero_with_gripper_description.xacro/urdf` | `nero_with_left_revo2_description.xacro/urdf` / `nero_with_right_revo2_description.xacro/urdf` |
 | Revo2 Hand | `revo2/` | `revo2_left_hand.urdf` / `revo2_right_hand.urdf` | — | — |
 
 ---
@@ -78,7 +78,7 @@ If you do not use the full `agx_arm_ros` workspace, you may still clone only thi
 mkdir -p ~/ws/src && cd ~/ws/src
 ros2 pkg create --build-type ament_cmake agx_arm_description
 cd agx_arm_description
-git clone https://github.com/agilexrobotics/agx_arm_urdf.git agx_arm_urdf
+git clone -b flattened https://github.com/agilexrobotics/agx_arm_urdf.git agx_arm_urdf
 ```
 
 In the package `CMakeLists.txt`:
@@ -103,7 +103,7 @@ source install/setup.bash
 mkdir -p ~/catkin_ws/src && cd ~/catkin_ws/src
 catkin_create_pkg agx_arm_description
 cd agx_arm_description
-git clone https://github.com/agilexrobotics/agx_arm_urdf.git agx_arm_urdf
+git clone -b flattened https://github.com/agilexrobotics/agx_arm_urdf.git agx_arm_urdf
 ```
 
 In the package `CMakeLists.txt`:
