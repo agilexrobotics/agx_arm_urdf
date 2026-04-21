@@ -2,7 +2,7 @@
 
 [English](./README_EN.md)
 
-本仓库包含 AgileX 系列机械臂的 URDF / Xacro 模型文件及对应的 3D 网格（mesh）资源，供 ROS / ROS2 可视化、仿真和运动规划使用。
+本仓库包含 AgileX 系列机械臂的 URDF 模型文件及对应的 3D 网格（mesh）资源，供 ROS / ROS2 可视化、仿真和运动规划使用。
 
 > **定位说明**：本仓库**主要服务于** [agx_arm_ros](https://github.com/agilexrobotics/agx_arm_ros) 主仓库（作为其中的子模块，与主仓内的 `agx_arm_description` 功能包一同安装）。  
 > 若你仅在非 AgileX 主仓场景下使用，可按下文「独立使用」自行创建**同名**功能包。
@@ -11,14 +11,13 @@
 
 ## 支持的型号
 
-| 型号 | 目录 | 基础 URDF | 夹爪 Xacro/URDF | 灵巧手 Xacro/URDF |
+| 型号 | 目录 | 基础 URDF | 夹爪 URDF | 灵巧手 URDF |
 |------|------|-----------|------------|--------------|
-| Piper | `piper/` | `piper_description.urdf` | `piper_with_gripper_description.xacro/urdf` | `piper_with_left_revo2_description.xacro/urdf` / `piper_with_right_revo2_description.xacro/urdf` |
-| Piper H | `piper_h/` | `piper_h_description.urdf` | `piper_h_with_gripper_description.xacro/urdf` | `piper_h_with_left_revo2_description.xacro/urdf` / `piper_h_with_right_revo2_description.xacro/urdf` |
-| Piper L | `piper_l/` | `piper_l_description.urdf` | `piper_l_with_gripper_description.xacro/urdf` | `piper_l_with_left_revo2_description.xacro/urdf` / `piper_l_with_right_revo2_description.xacro/urdf` |
-| Piper X | `piper_x/` | `piper_x_description.urdf` | `piper_x_with_gripper_description.xacro/urdf` | `piper_x_with_left_revo2_description.xacro/urdf` / `piper_x_with_right_revo2_description.xacro/urdf` |
-| Nero | `nero/` | `nero_description.urdf` | `nero_with_gripper_description.xacro/urdf` | `nero_with_left_revo2_description.xacro/urdf` / `nero_with_right_revo2_description.xacro/urdf` |
-| Revo2 灵巧手 | `revo2/` | `revo2_left_hand.urdf` / `revo2_right_hand.urdf` | — | — |
+| Piper | `piper/` | `piper_description.urdf` | `piper_with_gripper_description...` | `piper_with_left_revo2_description.urdf` / `piper_with_right_revo2_description.urdf` |
+| Piper H | `piper_h/` | `piper_h_description.urdf` | `piper_h_with_gripper_description.urdf` | `piper_h_with_left_revo2_description.urdf` / `piper_h_with_right_revo2_description.urdf` |
+| Piper L | `piper_l/` | `piper_l_description.urdf` | `piper_l_with_gripper_description.urdf` | `piper_l_with_left_revo2_description.urdf` / `piper_l_with_right_revo2_description.urdf` |
+| Piper X | `piper_x/` | `piper_x_description.urdf` | `piper_x_with_gripper_description.urdf` | `piper_x_with_left_revo2_description.urdf` / `piper_x_with_right_revo2_description.urdf` |
+| Nero | `nero/` | `nero_description.urdf` | `nero_with_gripper_description.urdf` | `nero_with_left_revo2_description.urdf` / `nero_with_right_revo2_description.urdf` |
 
 ---
 
@@ -28,7 +27,7 @@
 agx_arm_urdf/
 ├── piper/
 │   ├── meshes/dae/    # 3D 网格文件（.dae）
-│   └── urdf/          # URDF / Xacro 文件
+│   └── urdf/          # URDF 文件
 ├── piper_h/
 │   ├── meshes/dae/
 │   └── urdf/
@@ -78,7 +77,7 @@ ros2 launch agx_arm_description display.launch.py arm_type:=piper
 mkdir -p ~/ws/src && cd ~/ws/src
 ros2 pkg create --build-type ament_cmake agx_arm_description
 cd agx_arm_description
-git clone -b flattened https://github.com/agilexrobotics/agx_arm_urdf.git agx_arm_urdf
+git clone -b relative https://github.com/agilexrobotics/agx_arm_urdf.git agx_arm_urdf
 ```
 
 在包内 `CMakeLists.txt` 中配置：
@@ -103,7 +102,7 @@ source install/setup.bash
 mkdir -p ~/catkin_ws/src && cd ~/catkin_ws/src
 catkin_create_pkg agx_arm_description
 cd agx_arm_description
-git clone -b flattened https://github.com/agilexrobotics/agx_arm_urdf.git agx_arm_urdf
+git clone -b relative https://github.com/agilexrobotics/agx_arm_urdf.git agx_arm_urdf
 ```
 
 在包内 `CMakeLists.txt` 中配置：
