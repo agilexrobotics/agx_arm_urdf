@@ -78,5 +78,6 @@
         <child link="gripper_link2"/>
         <axis xyz="0 0 -1"/>
         <limit lower="-0.05" upper="0" effort="10" velocity="3"/>
+        <mimic joint="gripper_joint1" multiplier="-1.0" offset="0.0"/>
     </joint>
 </robot>
