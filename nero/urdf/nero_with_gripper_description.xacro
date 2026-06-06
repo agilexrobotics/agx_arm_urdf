@@ -27,6 +27,14 @@
         <parent link="gripper_flange"/>
         <child link="gripper_base"/>
     </joint>
+    <link name="gripper_link"/>
+    <joint name="gripper" type="prismatic">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <parent link="gripper_base"/>
+        <child link="gripper_link"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="0" upper="0.1" effort="10" velocity="3"/>
+    </joint>
     <link name="gripper_link1">
         <inertial>
             <origin xyz="0.00065123185041968 -0.0491929869131989 0.00972258769184025" rpy="0 0 0"/>
@@ -52,6 +60,7 @@
         <child link="gripper_link1"/>
         <axis xyz="0 0 1"/>
         <limit lower="0" upper="0.05" effort="10" velocity="3"/>
+        <mimic joint="gripper" multiplier="0.5" offset="0.0"/>
     </joint>
     <link name="gripper_link2">
         <inertial>
@@ -78,5 +87,6 @@
         <child link="gripper_link2"/>
         <axis xyz="0 0 -1"/>
         <limit lower="-0.05" upper="0" effort="10" velocity="3"/>
+        <mimic joint="gripper" multiplier="-0.5" offset="0.0"/>
     </joint>
 </robot>
