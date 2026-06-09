@@ -7,9 +7,9 @@
 <xacro:include filename="$(find agx_arm_description)/agx_arm_urdf/piper_l/urdf/piper_l_description.urdf"/>
     <link name="flange_link">
         <inertial>
-            <origin xyz="0.0 0.0 0.004" rpy="0 0 0"/>
-            <mass value="0.001"/>
-            <inertia ixx="0.00000001" ixy="0.00000000" ixz="0.00000000" iyy="0.00000001" iyz="0.00000000" izz="0.00000001"/>
+            <origin xyz="1.151691e-03 0.782428e-03 4.798051e-03" rpy="0 0 0"/>
+            <mass value="0.04"/>
+            <inertia ixx="9.935389e-06" ixy="0.0" ixz="0.0" iyy="10.508003e-06" iyz="0.0" izz="19.652873e-06"/>
         </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -30,7 +30,7 @@
         <child link="flange_link"/>
     </joint>
     <joint name="hand_base_joint" type="fixed">
-        <origin xyz="0.0 0.0 0.008" rpy="0 0 0"/>
+        <origin xyz="0.0 0.0 0.0105" rpy="0 0 0"/>
         <parent link="flange_link"/>
         <child link="left_base_link"/>
         <axis xyz="0 0 0"/>

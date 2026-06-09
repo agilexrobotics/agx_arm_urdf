@@ -23,7 +23,7 @@
         </collision>
     </link>
     <joint name="gripper_base_joint" type="fixed">
-        <origin xyz="0 0 0.0055" rpy="0 0 0"/>
+        <origin xyz="0 0 0.006" rpy="0 0 0"/>
         <parent link="gripper_flange"/>
         <child link="gripper_base"/>
     </joint>
@@ -55,7 +55,7 @@
         </collision>
     </link>
     <joint name="gripper_joint1" type="prismatic">
-        <origin xyz="0 0 0.1358" rpy="1.5707963 0 3.1415926"/>
+        <origin xyz="0 0 0.138" rpy="1.5707963 0 3.1415926"/>
         <parent link="gripper_base"/>
         <child link="gripper_link1"/>
         <axis xyz="0 0 1"/>
@@ -82,7 +82,7 @@
         </collision>
     </link>
     <joint name="gripper_joint2" type="prismatic">
-        <origin xyz="0 0 0.1358" rpy="1.5707963 0 0"/>
+        <origin xyz="0 0 0.138" rpy="1.5707963 0 0"/>
         <parent link="gripper_base"/>
         <child link="gripper_link2"/>
         <axis xyz="0 0 -1"/>
