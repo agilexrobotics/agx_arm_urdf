@@ -3,6 +3,30 @@
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="piper">
 <xacro:include filename="$(find agx_arm_description)/agx_arm_urdf/piper/urdf/piper_description.urdf"/>
+    <link name="flange_link">
+        <inertial>
+            <origin xyz="1.151691e-03 0.782428e-03 4.798051e-03" rpy="0 0 0"/>
+            <mass value="0.04"/>
+            <inertia ixx="9.935389e-06" ixy="0.0" ixz="0.0" iyy="10.508003e-06" iyz="0.0" izz="19.652873e-06"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://agx_arm_description/agx_arm_urdf/piper/meshes/dae/flange.dae"/>
+            </geometry>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://agx_arm_description/agx_arm_urdf/piper/meshes/flange.stl"/>
+            </geometry>
+        </collision>
+    </link>
+    <joint name="flange_joint" type="fixed">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <parent link="link6"/>
+        <child link="flange_link"/>
+    </joint>
     <link name="gripper_base">
         <inertial>
             <origin xyz="-0.000183807162235591 8.05033155577911E-05 0.0321436689908876" rpy="0 0 0"/>
@@ -23,8 +47,8 @@
         </collision>
     </link>
     <joint name="gripper_base_joint" type="fixed">
-        <origin xyz="0 0 0" rpy="0 0 0"/>
-        <parent link="link6"/>
+        <origin xyz="0 0 0.0045" rpy="0 0 0"/>
+        <parent link="flange_link"/>
         <child link="gripper_base"/>
     </joint>
     <link name="gripper_link"/>
@@ -55,7 +79,7 @@
         </collision>
     </link>
     <joint name="gripper_joint1" type="prismatic">
-        <origin xyz="0 0 0.1358" rpy="1.5707963 0 0"/>
+        <origin xyz="0 0 0.138" rpy="1.5707963 0 0"/>
         <parent link="gripper_base"/>
         <child link="gripper_link1"/>
         <axis xyz="0 0 1"/>
@@ -82,7 +106,7 @@
         </collision>
     </link>
     <joint name="gripper_joint2" type="prismatic">
-        <origin xyz="0 0 0.1358" rpy="1.5707963 0 -3.1415926"/>
+        <origin xyz="0 0 0.138" rpy="1.5707963 0 -3.1415926"/>
         <parent link="gripper_base"/>
         <child link="gripper_link2"/>
         <axis xyz="0 0 -1"/>
