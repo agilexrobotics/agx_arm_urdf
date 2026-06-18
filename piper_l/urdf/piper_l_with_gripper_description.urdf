@@ -22,13 +22,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/dae/base_link.dae"/>
+        <mesh filename="meshes/dae/base_link.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/base_link.stl"/>
+        <mesh filename="meshes/base_link.stl"/>
       </geometry>
     </collision>
   </link>
@@ -41,13 +41,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/dae/link1.dae"/>
+        <mesh filename="meshes/dae/link1.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/link1.stl"/>
+        <mesh filename="meshes/link1.stl"/>
       </geometry>
     </collision>
   </link>
@@ -67,13 +67,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/dae/link2.dae"/>
+        <mesh filename="meshes/dae/link2.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/link2.stl"/>
+        <mesh filename="meshes/link2.stl"/>
       </geometry>
     </collision>
   </link>
@@ -93,13 +93,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/dae/link3.dae"/>
+        <mesh filename="meshes/dae/link3.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/link3.stl"/>
+        <mesh filename="meshes/link3.stl"/>
       </geometry>
     </collision>
   </link>
@@ -119,13 +119,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/dae/link4.dae"/>
+        <mesh filename="meshes/dae/link4.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/link4.stl"/>
+        <mesh filename="meshes/link4.stl"/>
       </geometry>
     </collision>
   </link>
@@ -145,13 +145,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/dae/link5.dae"/>
+        <mesh filename="meshes/dae/link5.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/link5.stl"/>
+        <mesh filename="meshes/link5.stl"/>
       </geometry>
     </collision>
   </link>
@@ -171,13 +171,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/dae/link6.dae"/>
+        <mesh filename="meshes/dae/link6.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/link6.stl"/>
+        <mesh filename="meshes/link6.stl"/>
       </geometry>
     </collision>
   </link>
@@ -197,13 +197,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/dae/flange.dae"/>
+        <mesh filename="meshes/dae/flange.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/flange.stl"/>
+        <mesh filename="meshes/flange.stl"/>
       </geometry>
     </collision>
   </link>
@@ -221,13 +221,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/dae/gripper_base.dae"/>
+        <mesh filename="meshes/dae/gripper_base.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/gripper_base.stl"/>
+        <mesh filename="meshes/gripper_base.stl"/>
       </geometry>
     </collision>
   </link>
@@ -253,13 +253,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/dae/gripper_link1.dae"/>
+        <mesh filename="meshes/dae/gripper_link1.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/gripper_link1.stl"/>
+        <mesh filename="meshes/gripper_link1.stl"/>
       </geometry>
     </collision>
   </link>
@@ -280,13 +280,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/dae/gripper_link2.dae"/>
+        <mesh filename="meshes/dae/gripper_link2.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/gripper_link2.stl"/>
+        <mesh filename="meshes/gripper_link2.stl"/>
       </geometry>
     </collision>
   </link>

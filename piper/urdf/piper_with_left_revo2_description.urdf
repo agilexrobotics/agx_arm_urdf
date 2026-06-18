@@ -16,7 +16,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_base_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_base_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="1 1 1 1"/>
@@ -25,7 +25,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_base_visual_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_base_visual_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="1 1 1 1"/>
@@ -34,7 +34,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_base_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_base_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -47,7 +47,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_thumb_metacarpal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_thumb_metacarpal_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="1 1 1 1"/>
@@ -56,7 +56,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_thumb_metacarpal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_thumb_metacarpal_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -76,7 +76,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_thumb_proximal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_thumb_proximal_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="1 1 1 1"/>
@@ -85,7 +85,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_thumb_proximal_visual_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_thumb_proximal_visual_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="1 1 1 1"/>
@@ -94,7 +94,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_thumb_proximal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_thumb_proximal_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -114,7 +114,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_thumb_distal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_thumb_distal_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="1 1 1 1"/>
@@ -123,7 +123,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_thumb_distal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_thumb_distal_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -152,7 +152,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_thumb_touch_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_thumb_touch_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="1 1 1 1"/>
@@ -161,7 +161,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_thumb_touch_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_thumb_touch_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -180,7 +180,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_index_proximal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_index_proximal_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="1 1 1 1"/>
@@ -189,7 +189,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_index_proximal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_index_proximal_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -209,7 +209,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_index_distal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_index_distal_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="1 1 1 1"/>
@@ -218,7 +218,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_index_distal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_index_distal_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -247,7 +247,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_index_touch_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_index_touch_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="1 1 1 1"/>
@@ -256,7 +256,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_index_touch_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_index_touch_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -275,7 +275,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_middle_proximal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_middle_proximal_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="1 1 1 1"/>
@@ -284,7 +284,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_middle_proximal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_middle_proximal_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -304,7 +304,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_middle_distal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_middle_distal_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="1 1 1 1"/>
@@ -313,7 +313,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_middle_distal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_middle_distal_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -342,7 +342,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_middle_touch_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_middle_touch_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="1 1 1 1"/>
@@ -351,7 +351,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_middle_touch_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_middle_touch_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -370,7 +370,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_ring_proximal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_ring_proximal_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="1 1 1 1"/>
@@ -379,7 +379,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_ring_proximal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_ring_proximal_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -399,7 +399,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_ring_distal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_ring_distal_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="1 1 1 1"/>
@@ -408,7 +408,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_ring_distal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_ring_distal_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -437,7 +437,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_ring_touch_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_ring_touch_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="1 1 1 1"/>
@@ -446,7 +446,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_ring_touch_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_ring_touch_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -465,7 +465,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_pinky_proximal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_pinky_proximal_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="1 1 1 1"/>
@@ -474,7 +474,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_pinky_proximal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_pinky_proximal_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -494,7 +494,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_pinky_distal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_pinky_distal_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="1 1 1 1"/>
@@ -503,7 +503,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_pinky_distal_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_pinky_distal_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -532,7 +532,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_pinky_touch_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_pinky_touch_link.STL"/>
       </geometry>
       <material name="">
         <color rgba="1 1 1 1"/>
@@ -541,7 +541,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/revo2/meshes/revo2_left_hand/left_pinky_touch_link.STL"/>
+        <mesh filename="meshes/revo2/meshes/revo2_left_hand/left_pinky_touch_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -566,13 +566,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/dae/base_link.dae"/>
+        <mesh filename="meshes/dae/base_link.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/base_link.stl"/>
+        <mesh filename="meshes/base_link.stl"/>
       </geometry>
     </collision>
   </link>
@@ -585,13 +585,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/dae/link1.dae"/>
+        <mesh filename="meshes/dae/link1.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/link1.stl"/>
+        <mesh filename="meshes/link1.stl"/>
       </geometry>
     </collision>
   </link>
@@ -611,13 +611,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/dae/link2.dae"/>
+        <mesh filename="meshes/dae/link2.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/link2.stl"/>
+        <mesh filename="meshes/link2.stl"/>
       </geometry>
     </collision>
   </link>
@@ -637,13 +637,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/dae/link3.dae"/>
+        <mesh filename="meshes/dae/link3.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/link3.stl"/>
+        <mesh filename="meshes/link3.stl"/>
       </geometry>
     </collision>
   </link>
@@ -663,13 +663,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/dae/link4.dae"/>
+        <mesh filename="meshes/dae/link4.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/link4.stl"/>
+        <mesh filename="meshes/link4.stl"/>
       </geometry>
     </collision>
   </link>
@@ -689,13 +689,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/dae/link5.dae"/>
+        <mesh filename="meshes/dae/link5.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/link5.stl"/>
+        <mesh filename="meshes/link5.stl"/>
       </geometry>
     </collision>
   </link>
@@ -715,13 +715,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/dae/link6.dae"/>
+        <mesh filename="meshes/dae/link6.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/link6.stl"/>
+        <mesh filename="meshes/link6.stl"/>
       </geometry>
     </collision>
   </link>
@@ -741,13 +741,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/dae/flange.dae"/>
+        <mesh filename="meshes/dae/flange.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/flange.stl"/>
+        <mesh filename="meshes/flange.stl"/>
       </geometry>
     </collision>
   </link>
