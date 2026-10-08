@@ -165,8 +165,8 @@
   <link name="link6">
     <inertial>
       <origin rpy="0 0 0" xyz="-0.00003 0.00006 -0.002"/>
-      <mass value="0.007"/>
-      <inertia ixx="0.00152112" ixy="0.00000202" ixz="0.00000261" iyy="0.00138626" iyz="0.00000002" izz="0.00031152"/>
+      <mass value="0.00613114124"/>
+      <inertia ixx="5.9675161577e-07" ixy="0.0" ixz="0.0" iyy="5.6193081438e-07" iyz="0.0" izz="1.02183419594e-06"/>
     </inertial>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
