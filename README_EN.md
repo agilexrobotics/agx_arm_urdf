@@ -18,6 +18,7 @@ This repository contains URDF model files and 3D mesh resources for AgileX serie
 | Piper L | `piper_l/` | `piper_l_description.urdf` | `piper_l_with_gripper_description.urdf` | `piper_l_with_left_revo2_description.urdf` / `piper_l_with_right_revo2_description.urdf` |
 | Piper X | `piper_x/` | `piper_x_description.urdf` | `piper_x_with_gripper_description.urdf` | `piper_x_with_left_revo2_description.urdf` / `piper_x_with_right_revo2_description.urdf` |
 | Nero | `nero/` | `nero_description.urdf` | `nero_with_gripper_description.urdf` | `nero_with_left_revo2_description.urdf` / `nero_with_right_revo2_description.urdf` |
+| AGX Gripper | `agx_gripper/` | `agx_gripper_description.urdf` | — | — |
 
 ---
 
@@ -26,8 +27,8 @@ This repository contains URDF model files and 3D mesh resources for AgileX serie
 ```
 agx_arm_urdf/
 ├── piper/
-│   ├── meshes/dae/    # 3D mesh files (.dae)
-│   └── urdf/          # URDF files
+│   ├── meshes/dae/
+│   └── urdf/
 ├── piper_h/
 │   ├── meshes/dae/
 │   └── urdf/
@@ -38,6 +39,9 @@ agx_arm_urdf/
 │   ├── meshes/dae/
 │   └── urdf/
 ├── nero/
+│   ├── meshes/dae/
+│   └── urdf/
+├── agx_gripper/
 │   ├── meshes/dae/
 │   └── urdf/
 └── revo2/
