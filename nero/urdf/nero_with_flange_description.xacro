@@ -3,7 +3,7 @@
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="nero">
 <xacro:include filename="$(find agx_arm_description)/agx_arm_urdf/nero/urdf/nero_description.urdf"/>
-    <link name="gripper_flange">
+    <link name="flange_link">
         <inertial>
             <origin xyz="0.000253201 -0.000322696 -0.010082901" rpy="0 0 0"/>
             <mass value="0.04771096"/>
@@ -12,19 +12,19 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://agx_arm_description/agx_arm_urdf/nero/meshes/dae/gripper_flange.dae"/>
+                <mesh filename="package://agx_arm_description/agx_arm_urdf/nero/meshes/dae/flange.dae"/>
             </geometry>
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="package://agx_arm_description/agx_arm_urdf/nero/meshes/gripper_flange.stl"/>
+                <mesh filename="package://agx_arm_description/agx_arm_urdf/nero/meshes/flange.stl"/>
             </geometry>
         </collision>
     </link>
-    <joint name="gripper_flange_joint" type="fixed">
+    <joint name="flange_joint" type="fixed">
         <origin xyz="0.031 0 -0.0235" rpy="-1.5708 0 -1.5708"/>
         <parent link="link7"/>
-        <child link="gripper_flange"/>
+        <child link="flange_link"/>
     </joint>
 </robot>

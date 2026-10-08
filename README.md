@@ -18,6 +18,7 @@
 | Piper L | `piper_l/` | `piper_l_description.urdf` | `piper_l_with_gripper_description.xacro` | `piper_l_with_left_revo2_description.xacro` / `piper_l_with_right_revo2_description.xacro` |
 | Piper X | `piper_x/` | `piper_x_description.urdf` | `piper_x_with_gripper_description.xacro` | `piper_x_with_left_revo2_description.xacro` / `piper_x_with_right_revo2_description.xacro` |
 | Nero | `nero/` | `nero_description.urdf` | `nero_with_gripper_description.xacro` | `nero_with_left_revo2_description.xacro` / `nero_with_right_revo2_description.xacro` |
+| AGX 夹爪 | `agx_gripper/` | `agx_gripper_description.urdf` | — | — |
 | Revo2 灵巧手 | `revo2/` | `revo2_left_hand.urdf` / `revo2_right_hand.urdf` | — | — |
 
 ---
@@ -27,8 +28,8 @@
 ```
 agx_arm_urdf/
 ├── piper/
-│   ├── meshes/dae/    # 3D 网格文件（.dae）
-│   └── urdf/          # URDF / Xacro 文件
+│   ├── meshes/dae/
+│   └── urdf/
 ├── piper_h/
 │   ├── meshes/dae/
 │   └── urdf/
@@ -39,6 +40,9 @@ agx_arm_urdf/
 │   ├── meshes/dae/
 │   └── urdf/
 ├── nero/
+│   ├── meshes/dae/
+│   └── urdf/
+├── agx_gripper/
 │   ├── meshes/dae/
 │   └── urdf/
 └── revo2/
