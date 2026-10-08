@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="agx_gripper">
+  <link name="gripper_base">
+    <inertial>
+      <origin xyz="-0.000183807162235591 8.05033155577911E-05 0.0321436689908876" rpy="0 0 0" />
+      <mass value="0.45" />
+      <inertia ixx="0.000466573035886" ixy="0" ixz="0" iyy="0.000208671755285" iyz="0" izz="0.000443517627645" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://agx_arm_description/agx_arm_urdf/agx_gripper/meshes/dae/gripper_base.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://agx_arm_description/agx_arm_urdf/agx_gripper/meshes/gripper_base.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="gripper_link" />
+  <joint name="gripper" type="prismatic">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <parent link="gripper_base" />
+    <child link="gripper_link" />
+    <axis xyz="0 0 1" />
+    <limit lower="0" upper="0.1" effort="10" velocity="3" />
+  </joint>
+  <link name="gripper_link1">
+    <inertial>
+      <origin xyz="0.00065123185041968 -0.0491929869131989 0.00972258769184025" rpy="0 0 0" />
+      <mass value="0.025" />
+      <inertia ixx="1.0831334372e-05" ixy="3.32108655243e-07" ixz="-5.17776964242e-08" iyy="5.43941050918e-06" iyz="1.75746071559e-06" izz="1.41828415054e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://agx_arm_description/agx_arm_urdf/agx_gripper/meshes/dae/gripper_link1.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://agx_arm_description/agx_arm_urdf/agx_gripper/meshes/gripper_link1.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="gripper_joint1" type="prismatic">
+    <origin xyz="0 0 0.138" rpy="1.5707963 0 0" />
+    <parent link="gripper_base" />
+    <child link="gripper_link1" />
+    <axis xyz="0 0 1" />
+    <limit lower="0" upper="0.05" effort="10" velocity="3" />
+    <mimic joint="gripper" multiplier="0.5" offset="0.0" />
+  </joint>
+  <link name="gripper_link2">
+    <inertial>
+      <origin xyz="0.00065123185041968 -0.0491929869131989 0.00972258769184025" rpy="0 0 0" />
+      <mass value="0.025" />
+      <inertia ixx="1.0831334372e-05" ixy="3.32108655243e-07" ixz="-5.17776964242e-08" iyy="5.43941050918e-06" iyz="1.75746071559e-06" izz="1.41828415054e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://agx_arm_description/agx_arm_urdf/agx_gripper/meshes/dae/gripper_link2.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://agx_arm_description/agx_arm_urdf/agx_gripper/meshes/gripper_link2.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="gripper_joint2" type="prismatic">
+    <origin xyz="0 0 0.138" rpy="1.5707963 0 -3.1415926" />
+    <parent link="gripper_base" />
+    <child link="gripper_link2" />
+    <axis xyz="0 0 -1" />
+    <limit lower="-0.05" upper="0" effort="10" velocity="3" />
+    <mimic joint="gripper" multiplier="-0.5" offset="0.0" />
+  </joint>
+</robot>
