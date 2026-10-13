@@ -721,7 +721,7 @@
     <parent link="link5"/>
     <child link="link6"/>
     <axis xyz="0 0 1"/>
-    <limit effort="100" lower="-2.0943951" upper="2.0943951" velocity="5"/>
+    <limit effort="100" lower="-2.9670597" upper="2.9670597" velocity="5"/>
   </joint>
   <link name="flange_link">
     <inertial>
